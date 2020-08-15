@@ -31,6 +31,7 @@ const Logs = ({ log: { logs, loading }, getLogs }) => {
 
 Logs.propTypes = {
   log: PropTypes.object.isRequired,
+  getLogs: PropTypes.func.isRequired,
 };
 
 // log key is the key that will be used in here
